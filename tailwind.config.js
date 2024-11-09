@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        wall: "url('./src/assets/images/bg.jpg')"
+      },
+      fontFamily: {
+        marvel: 'Marvel-sans'
+      },
+      colors: {
+        'carbon': '#242424',
+        'dark-carbon': '#8c8c8c',
+        'light-carbon': '#b5b5b5'
+      }
+    },
   },
   plugins: [],
 }

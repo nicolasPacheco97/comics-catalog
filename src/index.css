@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+    .glass{
+        background: rgba(36, 36, 36, 0.43);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7.1px);
+        -webkit-backdrop-filter: blur(7.1px);
+    }
+
+    .mask-image{
+        mask-image: linear-gradient(black, transparent);
+    }
+}

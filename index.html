@@ -7,8 +7,14 @@
     <meta name="description" content="Encuentra tu commic de Marvel favorito">
     <title>Commic Catalog</title>
     <style>
+      @font-face {
+        font-family: 'Marvel-sans';
+        src: url("./src/assets/fonts/marvel.otf");
+        font-weight: normal;
+      }
+
       :root {
-        font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+        font-family: 'Montserrat', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
         line-height: 1.5;
         font-weight: 400;
 
@@ -20,6 +26,13 @@
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      html{
+        scroll-behavior: smooth;
       }
     </style>
   </head>

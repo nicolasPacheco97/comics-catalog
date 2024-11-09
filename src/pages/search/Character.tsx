@@ -43,7 +43,6 @@ function SearchCharacter(){
         if(!characterByName) setAlreadySearch(false)
     }
 
-    console.log(characterByName)
     return <>
         <section className="relative flex flex-col items-center px-5">
             <span className="h-full max-h-[720px] w-full absolute top-0 right-0 mask-image z-0 mt-[-130px]">

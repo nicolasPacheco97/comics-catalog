@@ -53,7 +53,6 @@ const useComicStore = create<ComicStore>()((set, get) => ({
     getCharacterById: async function(id: string){
         set(() => ({loading: true}))
         Request.getCharacterById(id).then( response => {
-            console.log(response)
             set(() => ({
                 characterByName: response.results[0] || null,
                 loading: false
@@ -84,7 +83,6 @@ const useComicStore = create<ComicStore>()((set, get) => ({
     getComicById: async function(id: string){
         set(() => ({loadingComic: true}))
         Request.getComicById(id).then( response => {
-            console.log(response)
             set(() => ({
                 comicByTitle: response.results[0] || null,
                 loadingComic: false

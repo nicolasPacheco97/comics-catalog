@@ -1,20 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/assets/:file*",
-      "destination": "/comics-catalog/assets/:file*"
-    },
-    {
-      "source": "/:file(js|css|svg|png|jpg|ico|woff2|woff|ttf)",
-      "destination": "/comics-catalog/:file"
-    },
-    {
-      "source": "/",
-      "destination": "/comics-catalog/index.html"
-    },
-    {
-      "source": "/:path*",
-      "destination": "/comics-catalog/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }

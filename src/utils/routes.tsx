@@ -5,7 +5,7 @@ import SearchCharacter from "../pages/search/Character"
 import SearchComic from "../pages/search/Comic"
 
 export const paths = {
-    base: 'comics-catalog',
+    base: '',
     home: '',
     searchCharacter: 'character',
     searchComic: 'comic',

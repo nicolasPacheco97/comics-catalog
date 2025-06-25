@@ -47,7 +47,7 @@ function Carousel({images}: Props) {
                         <p className="glass p-4 w-full hidden md:block">{item.description}</p>
                         <div className="flex justify-center min-h-full">
                             <Link to={{
-                                pathname: `/${paths.base}/${paths.searchCharacter}`,
+                                pathname: `/${paths.searchCharacter}`,
                                 search: `?id=${item.id}`
                             }} className="uppercase bg-red-600 px-5 py-2">Show more</Link>
                         </div>

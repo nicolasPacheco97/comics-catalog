@@ -20,8 +20,8 @@ function Header(){
                 <label htmlFor='menu' className='px-5 md:hidden absolute top-5 right-3'>
                     <img alt='menu' src={close} width={40} />
                 </label>
-                <Link to={`/${paths.base}/${paths.searchComic}`}>Comics</Link>
-                <Link to={`/${paths.base}/${paths.searchCharacter}`}>Characters</Link>
+                <Link to={`/${paths.searchComic}`}>Comics</Link>
+                <Link to={`/${paths.searchCharacter}`}>Characters</Link>
             </nav>
         </section>
     </header>
